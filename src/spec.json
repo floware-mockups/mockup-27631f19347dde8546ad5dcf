@@ -1,0 +1,289 @@
+{
+  "title": "Inventario degli arredi scolastici",
+  "description": "Prototipo per consultare e aggiornare gli arredi per aula, quantità e stato di conservazione. Dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica dell’inventario e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Aule censite",
+          "value": "8"
+        },
+        {
+          "label": "Arredi registrati",
+          "value": "64"
+        },
+        {
+          "label": "In buono stato",
+          "value": "42"
+        },
+        {
+          "label": "Da verificare",
+          "value": "14"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo 1",
+          "Banco modulare",
+          "12",
+          "Buono"
+        ],
+        [
+          "Lumo 2",
+          "Sedia impilabile",
+          "18",
+          "Buono"
+        ],
+        [
+          "Vela 1",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Nubi 3",
+          "Tavolo laboratorio",
+          "4",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario",
+      "description": "Elenco filtrabile degli arredi. Usa la ricerca e i filtri della tabella per individuare aula, tipologia o stato; il modulo consente di registrare un nuovo arredo.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Lumo 1",
+          "Banco modulare",
+          "12",
+          "Buono",
+          "Piano chiaro"
+        ],
+        [
+          "Lumo 1",
+          "Sedia impilabile",
+          "12",
+          "Da verificare",
+          "Due con segni d’uso"
+        ],
+        [
+          "Lumo 2",
+          "Armadio basso",
+          "2",
+          "Buono",
+          "Ante integre"
+        ],
+        [
+          "Lumo 2",
+          "Tavolo docente",
+          "1",
+          "Buono",
+          "Nessuna anomalia"
+        ],
+        [
+          "Vela 1",
+          "Banco modulare",
+          "10",
+          "Da riparare",
+          "Un supporto instabile"
+        ],
+        [
+          "Vela 1",
+          "Sedia impilabile",
+          "10",
+          "Buono",
+          "Seduta integra"
+        ],
+        [
+          "Vela 2",
+          "Libreria a ripiani",
+          "3",
+          "Da verificare",
+          "Controllare fissaggi"
+        ],
+        [
+          "Vela 2",
+          "Tavolo laboratorio",
+          "4",
+          "Buono",
+          "Superficie integra"
+        ],
+        [
+          "Nubi 1",
+          "Banco modulare",
+          "8",
+          "Buono",
+          "Piano chiaro"
+        ],
+        [
+          "Nubi 1",
+          "Sedia impilabile",
+          "8",
+          "Da verificare",
+          "Una sedia da controllare"
+        ],
+        [
+          "Nubi 2",
+          "Armadio basso",
+          "1",
+          "Da riparare",
+          "Cerniera da sistemare"
+        ],
+        [
+          "Nubi 2",
+          "Tavolo docente",
+          "1",
+          "Buono",
+          "Nessuna anomalia"
+        ],
+        [
+          "Lumo 3",
+          "Libreria a ripiani",
+          "2",
+          "Buono",
+          "Ripiani stabili"
+        ],
+        [
+          "Lumo 3",
+          "Sedia impilabile",
+          "14",
+          "Buono",
+          "Seduta integra"
+        ],
+        [
+          "Vela 3",
+          "Banco modulare",
+          "9",
+          "Da verificare",
+          "Segni d’uso"
+        ],
+        [
+          "Vela 3",
+          "Tavolo laboratorio",
+          "3",
+          "Buono",
+          "Superficie integra"
+        ],
+        [
+          "Nubi 3",
+          "Tavolo laboratorio",
+          "4",
+          "Da riparare",
+          "Un bordo danneggiato"
+        ],
+        [
+          "Nubi 3",
+          "Sedia impilabile",
+          "8",
+          "Buono",
+          "Seduta integra"
+        ]
+      ],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato",
+        "Note"
+      ]
+    },
+    {
+      "id": "aule",
+      "title": "Aule",
+      "description": "Consultazione delle aule presenti nell’inventario e del numero di arredi associati.",
+      "metrics": [
+        {
+          "label": "Aule attive",
+          "value": "8"
+        },
+        {
+          "label": "Arredi medi per aula",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Edificio",
+        "Piano",
+        "Arredi registrati"
+      ],
+      "rows": [
+        [
+          "Lumo 1",
+          "Lumo",
+          "Terra",
+          "24"
+        ],
+        [
+          "Lumo 2",
+          "Lumo",
+          "Primo",
+          "16"
+        ],
+        [
+          "Lumo 3",
+          "Lumo",
+          "Secondo",
+          "16"
+        ],
+        [
+          "Vela 1",
+          "Vela",
+          "Terra",
+          "20"
+        ],
+        [
+          "Vela 2",
+          "Vela",
+          "Primo",
+          "18"
+        ],
+        [
+          "Vela 3",
+          "Vela",
+          "Secondo",
+          "12"
+        ],
+        [
+          "Nubi 1",
+          "Nubi",
+          "Terra",
+          "16"
+        ],
+        [
+          "Nubi 2",
+          "Nubi",
+          "Primo",
+          "14"
+        ],
+        [
+          "Nubi 3",
+          "Nubi",
+          "Secondo",
+          "12"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
